@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>DC-Comics</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,6 +16,10 @@
 </head>
 
 <style>
+
+.sans{
+    font-family: sans-serif ;
+}
 
 .container-header div {
     height: 125px;
@@ -40,7 +44,6 @@
 }
 
 .container-footer {
-    background-color: grey;
     height: 125px;
 }
 </style>
@@ -49,7 +52,7 @@
     <header>
         <div class="container-header">
             <div>
-                <img src="..\storage\app\public\assets\buy-comics-digital-comics.png" alt="">
+                <img src="../storage/app/public/assets/dc-logo.png" alt="logo">
                 <ul class="nav-bar">
                     <li>characters</li>
                     <li>comics</li>
@@ -62,14 +65,17 @@
                     <li>news</li>
                     <li>shop</li>
                 </ul>
+                <img src="../storage/app/public/assets/dc-logo.png" alt="logo">
             </div>
         </div>
     </header>
-    <body>
-        
+    <body class="sans">
+        <h1>
+            Body
+        </h1>
     </body>
     <footer>
-    <div class="container-footer">
+    <div class="container-footer sans ">
         <h1>
             Footer
         </h1>
