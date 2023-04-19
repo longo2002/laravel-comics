@@ -27,7 +27,7 @@
     background-color: #ffffff;
     color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav-bar {
